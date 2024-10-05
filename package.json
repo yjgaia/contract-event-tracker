@@ -1,0 +1,14 @@
+{
+  "name": "@common-module/contract-event-tracker",
+  "author": "yj.gaia",
+  "homepage": "https://yj.dev",
+  "version": "0.1.0",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "@common-module/contract": "^0.1.0",
+    "@common-module/supabase": "^0.1.0"
+  },
+  "devDependencies": {}
+}
