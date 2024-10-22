@@ -6,7 +6,7 @@ class ContractEventTracker {
     contract: string,
     blockPeriod?: number,
   ) {
-    await SupabaseConnector.callFunction("api/contract/track-events", {
+    await SupabaseConnector.callEdgeFunction("api/contract/track-events", {
       chain,
       contract,
       blockPeriod,
